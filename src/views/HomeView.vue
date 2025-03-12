@@ -1,7 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { } from 'lucide-vue';
+</script>
 
 <template>
-  <main class="bg-base-200 mx-auto h-svh w-[min(700px,90%)] px-4">
+  <main class="mx-auto h-svh w-[min(700px,90%)] px-4">
     <div class="flex h-full flex-col gap-2 py-4">
       <div class="chat chat-start">
         <div class="chat-bubble">
@@ -24,6 +26,9 @@
         class="textarea mt-auto w-full resize-none"
         placeholder="Chat with Kojima"
       ></textarea>
+      <button class="btn btn-square">
+      <Settings>
+      </button>
     </div>
   </main>
 </template>
